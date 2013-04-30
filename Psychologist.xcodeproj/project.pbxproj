@@ -17,6 +17,7 @@
 		F3EEF3E0172FBC4400230551 /* PsychologistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3EEF3DF172FBC4400230551 /* PsychologistViewController.m */; };
 		F3EEF3EA172FC07D00230551 /* FaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = F3EEF3E7172FC07D00230551 /* FaceView.m */; };
 		F3EEF3EB172FC07D00230551 /* HappinessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3EEF3E9172FC07D00230551 /* HappinessViewController.m */; };
+		F3EEF3F6172FFCDE00230551 /* WebBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3EEF3F5172FFCDE00230551 /* WebBrowserViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		F3EEF3E7172FC07D00230551 /* FaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FaceView.m; path = ../../Happiness/Happiness/FaceView.m; sourceTree = "<group>"; };
 		F3EEF3E8172FC07D00230551 /* HappinessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HappinessViewController.h; path = ../../Happiness/Happiness/HappinessViewController.h; sourceTree = "<group>"; };
 		F3EEF3E9172FC07D00230551 /* HappinessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HappinessViewController.m; path = ../../Happiness/Happiness/HappinessViewController.m; sourceTree = "<group>"; };
+		F3EEF3F4172FFCDE00230551 /* WebBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebBrowserViewController.h; sourceTree = "<group>"; };
+		F3EEF3F5172FFCDE00230551 /* WebBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebBrowserViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +96,8 @@
 				F3EEF3DE172FBC4400230551 /* PsychologistViewController.h */,
 				F3EEF3DF172FBC4400230551 /* PsychologistViewController.m */,
 				F3EEF3D0172FBC4400230551 /* Supporting Files */,
+				F3EEF3F4172FFCDE00230551 /* WebBrowserViewController.h */,
+				F3EEF3F5172FFCDE00230551 /* WebBrowserViewController.m */,
 			);
 			path = Psychologist;
 			sourceTree = "<group>";
@@ -175,6 +180,7 @@
 				F3EEF3E0172FBC4400230551 /* PsychologistViewController.m in Sources */,
 				F3EEF3EA172FC07D00230551 /* FaceView.m in Sources */,
 				F3EEF3EB172FC07D00230551 /* HappinessViewController.m in Sources */,
+				F3EEF3F6172FFCDE00230551 /* WebBrowserViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
