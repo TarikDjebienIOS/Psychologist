@@ -15,6 +15,8 @@
 		F3EEF3DA172FBC4400230551 /* PsychologistAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3EEF3D9172FBC4400230551 /* PsychologistAppDelegate.m */; };
 		F3EEF3DD172FBC4400230551 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3EEF3DB172FBC4400230551 /* MainStoryboard.storyboard */; };
 		F3EEF3E0172FBC4400230551 /* PsychologistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3EEF3DF172FBC4400230551 /* PsychologistViewController.m */; };
+		F3EEF3EA172FC07D00230551 /* FaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = F3EEF3E7172FC07D00230551 /* FaceView.m */; };
+		F3EEF3EB172FC07D00230551 /* HappinessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3EEF3E9172FC07D00230551 /* HappinessViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +24,19 @@
 		F3EEF3C9172FBC4400230551 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F3EEF3CB172FBC4400230551 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F3EEF3CD172FBC4400230551 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F3EEF3D1172FBC4400230551 /* Psychologist-Info.plist */ = {isa = PBXFileReference; path = "Psychologist-Info.plist"; sourceTree = "<group>"; };
+		F3EEF3D1172FBC4400230551 /* Psychologist-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Psychologist-Info.plist"; sourceTree = "<group>"; };
 		F3EEF3D3172FBC4400230551 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F3EEF3D5172FBC4400230551 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F3EEF3D7172FBC4400230551 /* Psychologist-Prefix.pch */ = {isa = PBXFileReference; path = "Psychologist-Prefix.pch"; sourceTree = "<group>"; };
-		F3EEF3D8172FBC4400230551 /* PsychologistAppDelegate.h */ = {isa = PBXFileReference; path = PsychologistAppDelegate.h; sourceTree = "<group>"; };
+		F3EEF3D7172FBC4400230551 /* Psychologist-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Psychologist-Prefix.pch"; sourceTree = "<group>"; };
+		F3EEF3D8172FBC4400230551 /* PsychologistAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PsychologistAppDelegate.h; sourceTree = "<group>"; };
 		F3EEF3D9172FBC4400230551 /* PsychologistAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PsychologistAppDelegate.m; sourceTree = "<group>"; };
 		F3EEF3DC172FBC4400230551 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		F3EEF3DE172FBC4400230551 /* PsychologistViewController.h */ = {isa = PBXFileReference; path = PsychologistViewController.h; sourceTree = "<group>"; };
+		F3EEF3DE172FBC4400230551 /* PsychologistViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PsychologistViewController.h; sourceTree = "<group>"; };
 		F3EEF3DF172FBC4400230551 /* PsychologistViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PsychologistViewController.m; sourceTree = "<group>"; };
+		F3EEF3E6172FC07D00230551 /* FaceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FaceView.h; path = ../../Happiness/Happiness/FaceView.h; sourceTree = "<group>"; };
+		F3EEF3E7172FC07D00230551 /* FaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FaceView.m; path = ../../Happiness/Happiness/FaceView.m; sourceTree = "<group>"; };
+		F3EEF3E8172FC07D00230551 /* HappinessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HappinessViewController.h; path = ../../Happiness/Happiness/HappinessViewController.h; sourceTree = "<group>"; };
+		F3EEF3E9172FC07D00230551 /* HappinessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HappinessViewController.m; path = ../../Happiness/Happiness/HappinessViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,10 @@
 		F3EEF3CF172FBC4400230551 /* Psychologist */ = {
 			isa = PBXGroup;
 			children = (
+				F3EEF3E6172FC07D00230551 /* FaceView.h */,
+				F3EEF3E7172FC07D00230551 /* FaceView.m */,
+				F3EEF3E8172FC07D00230551 /* HappinessViewController.h */,
+				F3EEF3E9172FC07D00230551 /* HappinessViewController.m */,
 				F3EEF3D8172FBC4400230551 /* PsychologistAppDelegate.h */,
 				F3EEF3D9172FBC4400230551 /* PsychologistAppDelegate.m */,
 				F3EEF3DB172FBC4400230551 /* MainStoryboard.storyboard */,
@@ -163,6 +173,8 @@
 				F3EEF3D6172FBC4400230551 /* main.m in Sources */,
 				F3EEF3DA172FBC4400230551 /* PsychologistAppDelegate.m in Sources */,
 				F3EEF3E0172FBC4400230551 /* PsychologistViewController.m in Sources */,
+				F3EEF3EA172FC07D00230551 /* FaceView.m in Sources */,
+				F3EEF3EB172FC07D00230551 /* HappinessViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,53 +8,36 @@
 
 #import "PsychologistViewController.h"
 
+@interface PsychologistViewController()
+@property (nonatomic) int diagnosis;
+@end
+
+
 @implementation PsychologistViewController
 
-- (void)didReceiveMemoryWarning
+@synthesize diagnosis = _diagnosis;
+
+-(void) setAndShowDiagnosis:(int)diagnosis
 {
-    [super didReceiveMemoryWarning];
-    // Release any cached data, images, etc that aren't in use.
+    self.diagnosis = diagnosis;
+    // segue
 }
 
-#pragma mark - View lifecycle
-
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+- (IBAction)flying {
+    [self setAndShowDiagnosis:85];
 }
 
-- (void)viewDidUnload
-{
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
+- (IBAction)apple {
+    [self setAndShowDiagnosis:100];
 }
 
-- (void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
-}
-
-- (void)viewDidAppear:(BOOL)animated
-{
-    [super viewDidAppear:animated];
-}
-
-- (void)viewWillDisappear:(BOOL)animated
-{
-	[super viewWillDisappear:animated];
-}
-
-- (void)viewDidDisappear:(BOOL)animated
-{
-	[super viewDidDisappear:animated];
+- (IBAction)dragons {
+    [self setAndShowDiagnosis:20];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    // Return YES for supported orientations
-    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+    return YES;
 }
 
 @end
