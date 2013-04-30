@@ -18,11 +18,25 @@
 
 @synthesize diagnosis = _diagnosis;
 
+-(HappinessViewController *) splitViewHappinessViewController
+{
+    // Sur l'iPad, il y a deux vues, master et details, contenues dans le tableau viewControllers
+    id hvc = [self.splitViewController.viewControllers lastObject]; // On recupere la vue details
+    if(![hvc isKindOfClass:[HappinessViewController class]]){
+        hvc = nil;
+    }
+    return hvc; 
+    
+}
+
 -(void) setAndShowDiagnosis:(int)diagnosis
 {
     self.diagnosis = diagnosis;
-    // segue
-    [self performSegueWithIdentifier:@"ShowDiagnosis" sender:self];
+    if ([self splitViewHappinessViewController]) {
+        [self splitViewHappinessViewController].happiness = diagnosis;
+    } else {
+        [self performSegueWithIdentifier:@"ShowDiagnosis" sender:self];
+    }
 }
 
 -(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender

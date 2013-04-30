@@ -91,21 +91,21 @@
 		F3EEF3CF172FBC4400230551 /* Psychologist */ = {
 			isa = PBXGroup;
 			children = (
-				F3EEF3FA1730103000230551 /* iPad.storyboard */,
 				F3EEF3E6172FC07D00230551 /* FaceView.h */,
-				F3EEF3E7172FC07D00230551 /* FaceView.m */,
 				F3EEF3E8172FC07D00230551 /* HappinessViewController.h */,
-				F3EEF3E9172FC07D00230551 /* HappinessViewController.m */,
 				F3EEF3D8172FBC4400230551 /* PsychologistAppDelegate.h */,
-				F3EEF3D9172FBC4400230551 /* PsychologistAppDelegate.m */,
-				F3EEF3DB172FBC4400230551 /* iPhone.storyboard */,
-				F3EEF3F717300D9200230551 /* RotatableViewController.h */,
-				F3EEF3F817300D9200230551 /* RotatableViewController.m */,
 				F3EEF3DE172FBC4400230551 /* PsychologistViewController.h */,
-				F3EEF3DF172FBC4400230551 /* PsychologistViewController.m */,
-				F3EEF3D0172FBC4400230551 /* Supporting Files */,
+				F3EEF3F717300D9200230551 /* RotatableViewController.h */,
 				F3EEF3F4172FFCDE00230551 /* WebBrowserViewController.h */,
+				F3EEF3E7172FC07D00230551 /* FaceView.m */,
+				F3EEF3E9172FC07D00230551 /* HappinessViewController.m */,
+				F3EEF3D9172FBC4400230551 /* PsychologistAppDelegate.m */,
+				F3EEF3DF172FBC4400230551 /* PsychologistViewController.m */,
+				F3EEF3F817300D9200230551 /* RotatableViewController.m */,
 				F3EEF3F5172FFCDE00230551 /* WebBrowserViewController.m */,
+				F3EEF3FA1730103000230551 /* iPad.storyboard */,
+				F3EEF3DB172FBC4400230551 /* iPhone.storyboard */,
+				F3EEF3D0172FBC4400230551 /* Supporting Files */,
 			);
 			path = Psychologist;
 			sourceTree = "<group>";
@@ -306,6 +306,7 @@
 				F3EEF3E5172FBC4400230551 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
