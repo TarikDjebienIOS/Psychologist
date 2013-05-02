@@ -3,7 +3,7 @@
 //  Psychologist
 //
 //  Created by Tarik Djebien on 30/04/13.
-//  Copyright (c) 2013 __ShinraCorporation__. All rights reserved.
+//  Copyright (c) 2013 __MyCompanyName__. All rights reserved.
 //
 
 #import "PsychologistViewController.h"
@@ -25,8 +25,7 @@
     if(![hvc isKindOfClass:[HappinessViewController class]]){
         hvc = nil;
     }
-    return hvc; 
-    
+    return hvc;
 }
 
 -(void) setAndShowDiagnosis:(int)diagnosis
@@ -49,12 +48,6 @@
         [segue.destinationViewController setHappiness:20];
     } else if ([segue.identifier isEqualToString:@"TestDriven"]){
         [segue.destinationViewController setHappiness:50];
-    } else if ([segue.identifier isEqualToString:@"CelebrityIPad"]){
-        [self setAndShowDiagnosis:100];
-    } else if ([segue.identifier isEqualToString:@"SeriousIPad"]){
-        [self setAndShowDiagnosis:20];
-    } else if ([segue.identifier isEqualToString:@"TestDrivenIPad"]){
-        [self setAndShowDiagnosis:50];
     }
 }
 
