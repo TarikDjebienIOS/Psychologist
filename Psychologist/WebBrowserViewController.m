@@ -11,9 +11,10 @@
 @implementation WebBrowserViewController
 @synthesize myWebView = _myWebView;
 
--(void)viewDidLoad
+-(void)viewWillAppear:(BOOL)animated
 {
-    [super viewDidLoad];
+    [super viewWillAppear:animated];
+    self.myWebView.scalesPageToFit = NO;
     NSURL *lsoMedicalURL = [NSURL URLWithString:@"http://www.lsomedical.com"];
     NSURLRequest *lsoMedicalRequest = [NSURLRequest requestWithURL:lsoMedicalURL];
     [self.myWebView loadRequest:lsoMedicalRequest];

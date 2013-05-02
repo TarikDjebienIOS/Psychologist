@@ -23,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F336269B17324EA7006564CB /* SplitViewBarButtonItemPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplitViewBarButtonItemPresenter.h; sourceTree = "<group>"; };
 		F3EEF3C5172FBC4400230551 /* Psychologist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Psychologist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3EEF3C9172FBC4400230551 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F3EEF3CB172FBC4400230551 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -96,6 +97,7 @@
 				F3EEF3D8172FBC4400230551 /* PsychologistAppDelegate.h */,
 				F3EEF3DE172FBC4400230551 /* PsychologistViewController.h */,
 				F3EEF3F717300D9200230551 /* RotatableViewController.h */,
+				F336269B17324EA7006564CB /* SplitViewBarButtonItemPresenter.h */,
 				F3EEF3F4172FFCDE00230551 /* WebBrowserViewController.h */,
 				F3EEF3E7172FC07D00230551 /* FaceView.m */,
 				F3EEF3E9172FC07D00230551 /* HappinessViewController.m */,

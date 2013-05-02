@@ -14,20 +14,26 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" id="nj4-Aa-jCq" customClass="FaceView">
-                                <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
+                                <rect key="frame" x="0.0" y="44" width="768" height="1045"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                             </view>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="0hc-1e-PWD">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items/>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <toolbarItems/>
                     <connections>
                         <outlet property="faceView" destination="nj4-Aa-jCq" id="k4f-d5-ZhF"/>
+                        <outlet property="toolBar" destination="0hc-1e-PWD" id="Pod-59-XSr"/>
                     </connections>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="507" y="233"/>
+            <point key="canvasLocation" x="503" y="365"/>
         </scene>
         <scene sceneID="t7I-p3-SPr">
             <objects>
@@ -198,6 +204,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="cYe-38-r9j" kind="push" identifier="CelebrityIPad" splitViewControllerTargetIndex="1" id="woz-tg-AYt"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="W1w-Eh-YMR">
                                 <rect key="frame" x="20" y="137" width="280" height="37"/>
@@ -210,6 +219,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="V0U-M3-xfk" kind="push" identifier="SeriousIPad" splitViewControllerTargetIndex="1" id="Hco-zj-4MF"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Jsl-9R-gwh">
                                 <rect key="frame" x="20" y="211" width="280" height="37"/>
@@ -222,6 +234,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="aVC-Ce-8e5" kind="push" identifier="TestDrivenIPad" splitViewControllerTargetIndex="1" id="lZF-fj-7yT"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -231,6 +246,97 @@
                 </viewController>
             </objects>
             <point key="canvasLocation" x="1883" y="433"/>
+        </scene>
+        <scene sceneID="XLY-6j-XBe">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z07-Sw-D5W" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="cYe-38-r9j" customClass="HappinessViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NI2-vL-w07">
+                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="paZ-UY-IxO" customClass="FaceView">
+                                <rect key="frame" x="0.0" y="44" width="768" height="1001"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="hqP-Tv-dbu">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items/>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="pzq-HJ-Bg6"/>
+                    <connections>
+                        <outlet property="faceView" destination="paZ-UY-IxO" id="t4n-NK-4xT"/>
+                        <outlet property="toolBar" destination="hqP-Tv-dbu" id="Xv5-8B-Y2c"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="2551" y="-471"/>
+        </scene>
+        <scene sceneID="mvO-kB-nJt">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="al2-Gm-mK0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="V0U-M3-xfk" customClass="HappinessViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bnC-U6-t19">
+                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="Ldm-Yh-mqO" customClass="FaceView">
+                                <rect key="frame" x="0.0" y="44" width="768" height="1001"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="bcZ-mD-jhe">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items/>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems/>
+                    <connections>
+                        <outlet property="faceView" destination="Ldm-Yh-mqO" id="rzk-m4-eXY"/>
+                        <outlet property="toolBar" destination="bcZ-mD-jhe" id="jLC-uw-ejy"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="2551" y="673"/>
+        </scene>
+        <scene sceneID="UZR-K6-oaD">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="umr-cg-W8c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="aVC-Ce-8e5" customClass="HappinessViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jdp-Nx-Nif">
+                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="wdd-tv-mPr" customClass="FaceView">
+                                <rect key="frame" x="0.0" y="44" width="768" height="1001"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="nFZ-ne-y5o">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items/>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems/>
+                    <connections>
+                        <outlet property="faceView" destination="wdd-tv-mPr" id="eUL-P2-OQo"/>
+                        <outlet property="toolBar" destination="nFZ-ne-y5o" id="I0X-tR-IbQ"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="2559" y="1821"/>
         </scene>
     </scenes>
     <classes>
@@ -244,6 +350,7 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/HappinessViewController.h"/>
             <relationships>
                 <relationship kind="outlet" name="faceView" candidateClass="FaceView"/>
+                <relationship kind="outlet" name="toolBar" candidateClass="UIToolbar"/>
             </relationships>
         </class>
         <class className="PsychologistViewController" superclassName="UIViewController">
